@@ -430,7 +430,7 @@ def auto_follow_facebook_user():
                 time.sleep(delay_seconds)
 
 def auto_create_page():
-  print('\n\x1b[1;92m[01]\x1b[0m \x1b[1;97mLogin with email and password\x1b[0m')
+ # print('\n\x1b[1;92m[01]\x1b[0m \x1b[1;97mLogin with email and password\x1b[0m')
   print('\x1b[1;92m[02]\x1b[0m \x1b[1;97mLogin with cookies\x1b[0m')
 
   choice = input("\n\x1b[1;97mChoose login method (1): \x1b[0m")
