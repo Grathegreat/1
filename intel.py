@@ -440,7 +440,7 @@ def auto_create_page():
       user_password = input("\x1b[1;97mEnter your Facebook Password: \x1b[0m")
       cookie = get_user_cookie(user_email, user_password)
 
-  else:
+  if not cookie:
       print("\x1b[1;91mInvalid email or password.\x1b[0m")
       input()
       return
@@ -522,12 +522,12 @@ if __name__ == "__main__":
       try:
 
               while True:
-                print('\n\x1b[1;92m                █████╗ ██╗███████╗           \x1b[0m')
-                print('\x1b[1;92m               ██╔══██╗██║╚══███╔╝          \x1b[0m')
-                print('\x1b[1;92m               ███████║██║  ███╔╝           \x1b[0m')
-                print('\x1b[1;92m               ██╔══██║██║ ███╔╝            \x1b[0m')
-                print('\x1b[1;92m               ██║  ██║██║███████╗          \x1b[0m')
-                print('\x1b[1;92m               ╚═╝  ╚═╝╚═╝╚══════╝          \x1b[0m')
+                print('\n\x1b[1;92m               ████  ████          \x1b[0m')
+                print('\x1b[1;92m               ██  ██  ██          \x1b[0m')
+                print('\x1b[1;92m               ██      ██           \x1b[0m')
+                print('\x1b[1;92m               ██      ██            \x1b[0m')
+                print('\x1b[1;92m               ██      ██          \x1b[0m')
+                print('\x1b[1;92m               ██      ██          \x1b[0m')
                 print('\n\x1b[1;92m' + '-' * 50 + '\x1b[0m')
                 print('\n\x1b[1;92mOwner     :\x1b[0m \x1b[1;97mMot Mot Oyamat\x1b[0m ')
                 print('\x1b[1;92mFacebook  :\x1b[0m \x1b[1;97mfacebook.com/Mot.Mot.Oyamat\x1b[0m ')
