@@ -446,7 +446,7 @@ def auto_create_page():
      # return
 
   if choice == '1':
-      print('\n\x1b[1;92m[ Example ]:\x1b[0m \x1b[1;97msb=vZK3ZAkr0Kot9RZYsdOinHjU; datr=vZK3ZJdCak5gObgvXuIv6448; m_ls=%7B%22c%22%3A%7B%221%22%3A%22HCwAABb495wZFtiA0fkIEwUW1OeTx_nBLQA%22%2C%222%22%3A%22GSwVQBxMAAAWBhby0LzLDBYAABV-HEwAABYAFobRvMsMFgAAFigA%22%7D%2C%22d%22%3A%221c7bf43b-22bf-4350-8080-d8409846bfbe%22%2C%22s%22%3A%220%22%2C%22u%22%3A%22nwromx%22%7D; vpd=v1%3B532x503x2; wl_cbv=v2%3Bclient_version%3A2371%3Btimestamp%3A1701584166; locale=en_US; c_user=100079335822323; xs=7%3AZ70UU0CExWpjnQ%3A2%3A1704136661%3A-1%3A7865; fr=1O4M6scyTd8S7r38e.AWVjT7fNVXSzIReLCeqBvtUNTRM.Blkw4Q.ju.AAA.0.0.Blkw_X.AWXDIrTRrOo; presence=C%7B%22t3%22%3A%5B%5D%2C%22utc3%22%3A1704191003022%2C%22v%22%3A1%7D; wd=782x607\x1b[0m')
+      print('\n\x1b[1;92m[ Example ]:\x1b[0m \x1b[1;97mdatr=zXFuZrPRlD2T4TLwymKPi3I3; sb=zXFuZoLrksCku1UITX0It2jJ; ps_n=1; ps_l=1; m_pixel_ratio=1.1508182287216187; wd=627x1263; fr=0VSee9gdJKQSwpW9Z.AWUcoFK900a3WQV1vCMhK-Z_6Bw.BmbnHN..AAA.0.0.BmcmBk.AWWGd5-7PQg; c_user=61553404918808; xs=35%3AXvln-SbhR0j1rQ%3A2%3A1718771815%3A-1%3A7859; locale=en_US; vpd=v1%3B1011x501x1.1508182287216187; fbl_st=101537375%3BT%3A28646311; wl_cbv=v2%3Bclient_version%3A2531%3Btimestamp%3A1718778704')
       cookie = input("\n\x1b[1;97mEnter your cookie: \x1b[0m")
      
   else:
