@@ -438,9 +438,9 @@ def auto_create_page():
   if choice == '1':
       user_email = input("\n\x1b[1;97mEnter your Facebook Email: \x1b[0m")
       user_password = input("\x1b[1;97mEnter your Facebook Password: \x1b[0m")
-      cookie = get_user_cookie(user_email, user_password) 
+      cookie = get_user_cookie(user_email, user_password)
 
-  if not cookie:
+  else:
       print("\x1b[1;91mInvalid email or password.\x1b[0m")
       input()
       return
