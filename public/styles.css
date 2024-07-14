@@ -1,0 +1,149 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container for login and chat */
+.centered-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chat box container */
+#chat {
+    width: 90%;
+    max-width: 600px;
+}
+
+/* Header of the chat */
+#chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Container for messages */
+.messages-container {
+    max-height: 400px;
+    overflow-y: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #e0e0e0;
+    border-radius: 10px;
+}
+
+/* Individual message styling */
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+}
+
+/* Profile picture styling */
+.message img.profile-picture {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* User's message */
+.user-message {
+    background-color: #007bff;
+    color: white;
+    align-self: flex-end;
+}
+
+/* Other user's message */
+.other-message {
+    background-color: #e0e0e0;
+    color: black;
+    align-self: flex-start;
+}
+
+/* Notification message */
+.notification-message {
+    background-color: #ffeb3b;
+    color: black;
+    text-align: center;
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.notification-message span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* Input field styling */
+.input {
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: calc(100% - 22px);
+}
+
+/* Button styling */
+.btn {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Responsive image and video styling */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+audio {
+    max-width: 100%;
+}
+
+/* Hidden elements */
+#profile-picture-input,
+.hidden {
+    display: none;
+}
+
+/* Chat inputs container */
+#chat-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="login" class="centered-container">
+        <input type="text" id="username" placeholder="Enter username">
+        <input type="file" id="profile-picture-input" accept="image/*" class="hidden">
+        <button class="btn" onclick="selectProfilePicture()">Select Profile</button>
+        <button class="btn" onclick="joinChat()">Join</button>
+    </div>
+    <div id="chat" class="hidden">
+        <div id="chat-header">
+            <button class="btn" onclick="changeName()">Change Name</button>
+            <input type="text" id="new-username" placeholder="New username" class="hidden">
+            <button class="btn hidden" id="confirm-change" onclick="confirmChangeName()">Confirm</button>
+        </div>
+        <div id="messages" class="messages-container"></div>
+        <div id="chat-inputs">
+            <input id="message-input" class="input" placeholder="Type a message">
+            <input type="file" id="photo-input" accept="image/*" class="hidden">
+            <button class="btn" onclick="sendMessage()">Send</button>
+            <button class="btn" onclick="addPhoto()">Add Photo</button>
+            <button class="btn" onclick="startRecording()">Record Voice</button>
+            <button class="btn hidden" id="stop-recording" onclick="stopRecording()">Stop Recording</button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
